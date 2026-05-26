@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+input, select {
+    @apply border border-zinc-500 rounded;
+    @apply px-4 py-2;
+}
+
+button {
+    @apply bg-teal-500 rounded text-white font-bold;
+    @apply px-4 py-2;
+}
+
